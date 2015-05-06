@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Webinar registration form</title>
+    <link rel="stylesheet" href="styles/01-Webinar-registration-form.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <form action="" method="post">
+            <h3>Регистация за уебинар</h3>
+            <section id="permanentDisplay">
+                <label for="name">Име и фамилия:<span class="mandatory">*</span>
+                </label>
+                <input type="text" id="name">
+
+                <label for="address">Адрес:</label>
+                <input type="text" id="address">
+
+                <label for="city">Населено място :</label>
+                <input type="text" id="city">
+
+                <label for="postCode">Пощенски код :</label>
+                <input type="text" id="postCode">
+
+                <label for="email">Email:<span class="mandatory">*</span>
+                </label>
+                <input type="email" id="email">
+
+                <label for="tel">Телефон:<span class="mandatory">*</span>
+                </label>
+                <input type="tel" id="tel">
+
+                <label for="date">Дата на семинара:<span class="mandatory">*</span>
+                </label>
+                <input type="date" id="date">
+
+                <div id="checkboxLine">
+                    <input type="checkbox" id="invoiceRequest" onclick="showHideText(this,'onRequestDisplay')" >
+                    <label for="invoiceRequest">Желая фактура</label>
+                </div>
+            </section>
+            <section id="onRequestDisplay">
+                <label for="firm">Фирма/Организация:<span class="mandatory">*</span>
+                </label>
+                <input type="text" id="firm">
+                <label for="mol">МОЛ:<span class="mandatory">*</span>
+                </label>
+                <input type="text" id="mol">
+                <label for="eik">ЕИК:<span class="mandatory">*</span>
+                </label>
+                <input type="text" id="eik">
+                <label for="dds">ИН по ДДС:<span class="mandatory">*</span>
+                </label>
+                <input type="text" id="dds">
+                <label for="firmAddress">Адрес:<span class="mandatory">*</span>
+                </label>
+                <input type="text" id="firmAddress">
+            </section>
+
+            <input type="submit" value="Регистрирай се">
+            <input type="reset" value="Изчисти" />
+        </form>
+    </div>
+    <script src="scripts/01-Webinar-registration-form.js"></script>
+</body>
+
+</html>

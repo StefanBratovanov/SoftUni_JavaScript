@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" href="styles/05-Tic-Tac-Toe.css">
+	<script src="scripts/05-Tic-Tac-Toe.js"></script>
+</head>
+<body onload="startGame()">
+	<nav id="messages">messages here</nav>
+	<table>
+		<tr>
+			<td id="cell_1" class="square" onclick="nextMove(this)"></td>
+			<td id="cell_2" class="square" onclick="nextMove(this)"></td>
+			<td id="cell_3" class="square" onclick="nextMove(this)"></td>
+		</tr>	
+		<tr>
+			<td id="cell_4" class="square" onclick="nextMove(this)"></td>
+			<td id="cell_5" class="square" onclick="nextMove(this)"></td>
+			<td id="cell_6" class="square" onclick="nextMove(this)"></td>
+		</tr>	
+		<tr>
+			<td id="cell_7" class="square" onclick="nextMove(this)"></td>
+			<td id="cell_8" class="square" onclick="nextMove(this)"></td>
+			<td id="cell_9" class="square" onclick="nextMove(this)"></td>
+		</tr>
+	</table>
+	<a href="javascript:startGame()">New Game</a>
+</body>
+</html>

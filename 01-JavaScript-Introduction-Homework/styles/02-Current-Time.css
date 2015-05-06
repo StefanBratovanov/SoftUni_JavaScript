@@ -1,0 +1,10 @@
+p {
+	font-size: 24px;
+	text-align: center;
+	color:#6d198d;
+	text-shadow: 2px 2px 6px #743972;
+	width: 360px;
+	padding: 5px;
+	background-color: #ebdf4e;
+	border: 5px solid #6d198d;
+}

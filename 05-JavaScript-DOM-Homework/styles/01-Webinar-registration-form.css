@@ -1,0 +1,47 @@
+#wrapper {
+    width: 400px;
+    background-color: pink;
+}
+
+form {
+    padding-left: 100px;
+}
+input {
+    width: 60%;
+    display: block;
+}
+
+#checkboxLine {
+    display: inline-block;
+    width: 80%;
+}
+
+#invoiceRequest,label[for="invoiceRequest"] {
+    display: inline;
+    
+}
+
+#invoiceRequest {
+    width: 20px;
+}
+
+.mandatory {
+    color: red;
+}
+
+input[type="submit"],input[type="reset"] {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    width: 40%;
+}
+
+input[type="reset"] {
+    width: 20%;
+}
+
+#onRequestDisplay {
+    visibility: hidden;
+}

@@ -1,0 +1,11 @@
+p {
+	display: inline-block;
+	font-size: 30px;
+	padding: 5px;
+	background: #51ea44;
+	color: rgb(25, 26, 67);
+	box-shadow: 5px 5px 10px #5e8649;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-left: 15px;
+}

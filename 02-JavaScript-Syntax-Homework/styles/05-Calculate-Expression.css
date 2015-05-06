@@ -1,0 +1,25 @@
+#wrapper {
+	width: 350px;
+	display: block;
+}
+
+p,#input-field {
+	display: block;
+	width: 300px;
+	padding: 10px;
+	margin: 0 auto;
+	background: #1c264a;
+	color: orange;
+	border: none;
+	border-radius: 5px;
+}
+
+#submit {
+	display: block;
+	width: 100px;
+	padding: 5px;
+	font-weight: bold;
+	margin: 20px auto;
+	background: #fff;
+	border: 2px solid black;
+}
